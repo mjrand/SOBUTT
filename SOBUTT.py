@@ -362,7 +362,6 @@ def edit_range_in_custom_sweep_list(custom_sweep_list):
 if __name__ == "__main__":
     print("Welcome to SOBUTT!\n")
     buttkicker = matched_client.MatchedClient('tektronix', args=[])
-    buttkicker = "Test"
     #Initialize pysmurf
 
     buttkicker.init.start()
